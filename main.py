@@ -137,7 +137,7 @@ def job():
 
 if __name__ == "__main__":
     #flush(['concours','#Concours'])
-    schedule.every().minute.do(job)
+    schedule.every().minute(30).do(job)
     while True:
         logging.basicConfig(level=logging.INFO,
                     format='%(asctime)s %(name)-12s %(levelname)-8s %(message)s',
