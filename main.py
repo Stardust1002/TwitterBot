@@ -103,8 +103,8 @@ def flush(queries, flag='any'):
 def scenarioConcours(limit=100):
     results = api.search(q="#Concours",
                                   result_type='recent',
-                                  since_id=getLastPostId(['concours'], api.user_timeline(), 'any'),
                                   count=limit)
+    #since_id = getLastPostId(['concours'], api.user_timeline(), 'any')
     results = map(getRootTweet, results)
     results = filter(checkSeriousness, results)
     to_retweet = map(deepFollow, results)
