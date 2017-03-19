@@ -111,14 +111,19 @@ def scenarioConcours(limit=100):
     return list(results) # in case it returns a lazy map
 
 def scenarioUser(liste, likeRatio=3, retweetRatio=8):
-    choice = liste[randint(0, len(liste)-1)]
+    choice = ""
     try:
-        user = api.get_user(choice)
-        status = user.status
-        if randint(0,10) < retweetRatio:
-            retweet(status)
-        if randint(0, 10) < likeRatio:
-            favorite(status)
+        flagged = False
+        while not flagged:
+            choice = liste[randint(0, len(liste) - 1)]
+            user = api.get_user(choice)
+            status = user.status
+            if randint(0,10) < retweetRatio and status.retweet_count > 200:
+                retweet(status)
+                flagged = True
+            if randint(0, 10) < likeRatio and status.favorite_count > 200:
+                favorite(status)
+                flagged = True
         sleep(randint(60, 600))
     except Exception as exc:
         logger.info("Retweet Failed for {} - {} {} ".format(choice, type(exc), exc))
