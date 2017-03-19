@@ -16,6 +16,13 @@ auth = tweepy.OAuthHandler(*auth_keys)
 auth.set_access_token(*auth_tokens)
 api = tweepy.API(auth)
 
+logging.basicConfig(level=logging.INFO,
+                    format='%(asctime)s %(name)-12s %(levelname)-8s %(message)s',
+                    filename='logs/{}.log'.format(strftime("%Y-%m-%d", gmtime())),
+                    filemode='a')
+logger = logging.getLogger('Twitter_bot')
+logger.addHandler(logging.StreamHandler())
+
 politics = ('JLMelenchon', 'benoithamon', 'EmmanuelMacron')
 teams = ('NHLBlackhawks', 'PSG_inside', 'RCLens', 'chicagobulls')
 games = ('NintendoFrance', 'PlayStationFR', 'Gamekult', 'zqsdfr', 'JVlemag')
@@ -144,12 +151,6 @@ def job():
 if __name__ == "__main__":
     #flush(['concours','#Concours'])
     while True:
-        logging.basicConfig(level=logging.INFO,
-                    format='%(asctime)s %(name)-12s %(levelname)-8s %(message)s',
-                    filename='logs/{}.log'.format(strftime("%Y-%m-%d", gmtime())),
-                    filemode='a')
-        logger = logging.getLogger('Twitter_bot')
-        logger.addHandler(logging.StreamHandler())
         logger.info("=========== New job starting on {} =========".format(datetime.now()))
         job()
         logger.info("=========== Job paused =============")
