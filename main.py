@@ -8,7 +8,6 @@ from time import gmtime
 from time import sleep
 from time import strftime
 from os import environ
-#import auth
 
 auth_keys = (environ['auth1'], environ['auth2'])
 auth_tokens = (environ['token1'], environ['token2'])
@@ -100,10 +99,10 @@ def flush(queries, flag='any'):
         pass
 
 def scenarioConcours(limit=100):
-    results = list(set(api.search(q="#Concours",
+    results = api.search(q="#Concours",
                                   result_type='recent',
                                   since_id=getLastPostId(['concours'], api.user_timeline(), 'any'),
-                                  count=limit)))
+                                  count=limit)
     results = map(getRootTweet, results)
     results = filter(checkSeriousness, results)
     to_retweet = map(deepFollow, results)
