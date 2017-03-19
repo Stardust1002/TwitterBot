@@ -109,7 +109,7 @@ def flush(queries, flag='any'):
 
 def scenarioConcours(limit=100):
     results = api.search(q="#Concours",
-                                  result_type='recent',
+                                  result_type='mixed',
                                   count=limit)
     #since_id = getLastPostId(['concours'], api.user_timeline(), 'any')
     results = map(getRootTweet, results)
@@ -134,18 +134,27 @@ def scenarioUser(liste, likeRatio=3, retweetRatio=8):
             flagged = flagged or favorite(status)
         liste = liste.remove(choice)
     if flagged:
-        sleep(randint(60, 600))
+        sleep(randint(60, 300))
 
 def job():
     if datetime.now().hour >= randint(7, 9):
-        scenarioConcours()
+        logger.info('- Concours:')
+        scenarioConcours(30)
+        logger.info('- Politics:')
         scenarioUser(politics, likeRatio=3, retweetRatio=7)
+        logger.info('- Teams:')
         scenarioUser(teams, likeRatio=8, retweetRatio=3)
+        logger.info('- Games:')
         scenarioUser(games, likeRatio=5, retweetRatio=7)
+        logger.info('- Geek:')
         scenarioUser(geek, likeRatio=2, retweetRatio=8)
+        logger.info('- Companies:')
         scenarioUser(companies, likeRatio=6, retweetRatio=5)
+        logger.info('- People:')
         scenarioUser(people, likeRatio=8, retweetRatio=7)
+        logger.info('- News:')
         scenarioUser(news, likeRatio=1, retweetRatio=6)
+        logger.info('- Photos:')
         scenarioUser(photos, likeRatio=8, retweetRatio=5)
 
 if __name__ == "__main__":
