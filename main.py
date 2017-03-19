@@ -35,17 +35,19 @@ def retweet(tweet):
     try:
         tweet.retweet()
         logger.info("Retweeted {}".format(tweet.text[0:min(len(tweet.text), 20)]))
+        return True
     except Exception as exc:
         logger.info("Retweet Failed {} {} {}".format(tweet.text[0:min(len(tweet.text), 20)], type(exc), exc))
-    return tweet
+    return False
 
 def favorite(tweet):
     try:
         tweet.favorite()
         logger.info("Liked {}".format(tweet.text[0:min(len(tweet.text), 20)]))
+        return True
     except Exception as exc:
         logger.info("Like Failed {}".format(tweet.text[0:min(len(tweet.text), 20)], type(exc), exc))
-    return tweet
+    return False
 
 def followUser(user):
     try:
@@ -120,11 +122,9 @@ def scenarioUser(liste, likeRatio=3, retweetRatio=8):
         user = api.get_user(choice)
         status = user.status
         if randint(0,10) < retweetRatio and status.retweet_count > 50:
-            retweet(status)
-            flagged = True
+            flagged = retweet(status)
         if randint(0, 10) < likeRatio and status.favorite_count > 50:
-            favorite(status)
-            flagged = True
+            flagged = flagged or favorite(status)
         liste = liste.remove(choice)
     if flagged:
         sleep(randint(60, 600))
