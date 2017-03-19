@@ -1,6 +1,5 @@
 import logging
 import re
-import schedule
 import tweepy
 
 from datetime import datetime
@@ -9,6 +8,7 @@ from time import gmtime
 from time import sleep
 from time import strftime
 from os import environ
+#import auth
 
 auth_keys = (environ['auth1'], environ['auth2'])
 auth_tokens = (environ['token1'], environ['token2'])
@@ -29,7 +29,7 @@ photos = ('HUBBLE_space', 'Fascinatingpics', 'BEAUTIFULPlCS')
 def getRootTweet(tweet):
     return getRootTweet(tweet.retweeted_status) if hasattr(tweet, 'retweeted_status') else tweet
 
-def checkSeriousness(tweet, limit=15000):
+def checkSeriousness(tweet, limit=20000):
     return tweet.author.followers_count >= limit
 
 def retweet(tweet):
@@ -106,43 +106,44 @@ def scenarioConcours(limit=100):
                                   count=limit)))
     results = map(getRootTweet, results)
     results = filter(checkSeriousness, results)
-    results = map(deepFollow, results)
-    results = map(retweet, results)
-    return list(results) # in case it returns a lazy map
+    to_retweet = map(deepFollow, results)
+    results = []
+    for result in to_retweet:
+        results.append(retweet(result))
+        sleep(randint(1, 20))
+    return results
 
 def scenarioUser(liste, likeRatio=3, retweetRatio=8):
-    choice = ""
-    try:
-        flagged = False
-        while not flagged:
-            choice = liste[randint(0, len(liste) - 1)]
-            user = api.get_user(choice)
-            status = user.status
-            if randint(0,10) < retweetRatio and status.retweet_count > 200:
-                retweet(status)
-                flagged = True
-            if randint(0, 10) < likeRatio and status.favorite_count > 200:
-                favorite(status)
-                flagged = True
+    flagged = False
+    liste = list(liste)
+    while not flagged and liste:
+        choice = liste[randint(0, len(liste) - 1)]
+        user = api.get_user(choice)
+        status = user.status
+        if randint(0,10) < retweetRatio and status.retweet_count > 50:
+            retweet(status)
+            flagged = True
+        if randint(0, 10) < likeRatio and status.favorite_count > 50:
+            favorite(status)
+            flagged = True
+        liste = liste.remove(choice)
+    if flagged:
         sleep(randint(60, 600))
-    except Exception as exc:
-        logger.info("Retweet Failed for {} - {} {} ".format(choice, type(exc), exc))
 
 def job():
     if datetime.now().hour >= randint(7, 9):
+        scenarioConcours()
         scenarioUser(politics, likeRatio=3, retweetRatio=7)
-        scenarioUser(teams, likeRatio=7, retweetRatio=3)
+        scenarioUser(teams, likeRatio=8, retweetRatio=3)
         scenarioUser(games, likeRatio=5, retweetRatio=7)
         scenarioUser(geek, likeRatio=2, retweetRatio=8)
         scenarioUser(companies, likeRatio=6, retweetRatio=5)
         scenarioUser(people, likeRatio=8, retweetRatio=7)
         scenarioUser(news, likeRatio=1, retweetRatio=6)
         scenarioUser(photos, likeRatio=8, retweetRatio=5)
-        scenarioConcours()
 
 if __name__ == "__main__":
     #flush(['concours','#Concours'])
-    schedule.every(30).minutes.do(job)
     while True:
         logging.basicConfig(level=logging.INFO,
                     format='%(asctime)s %(name)-12s %(levelname)-8s %(message)s',
@@ -150,4 +151,7 @@ if __name__ == "__main__":
                     filemode='a')
         logger = logging.getLogger('Twitter_bot')
         logger.addHandler(logging.StreamHandler())
-        schedule.run_pending()
+        logger.info("=========== New job starting on {} =========".format(datetime.now()))
+        job()
+        logger.info("=========== Job paused =============")
+        sleep(randint(60, 600))
