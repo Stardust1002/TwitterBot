@@ -1,0 +1,2 @@
+schedule==0.4.2
+tweepy==3.5.0
