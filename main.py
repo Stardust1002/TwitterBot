@@ -3,16 +3,18 @@ import re
 import schedule
 import tweepy
 
-from auth import getKeys
 from datetime import datetime
 from random import randint
 from time import gmtime
 from time import sleep
 from time import strftime
+from os import environ
 
-keys = getKeys()
-auth = tweepy.OAuthHandler(*keys['auth'])
-auth.set_access_token(*keys['tokens'])
+auth_keys = (environ['auth1'], environ['auth2'])
+auth_tokens = (environ['token1'], environ['token2'])
+
+auth = tweepy.OAuthHandler(*auth_keys)
+auth.set_access_token(*auth_tokens)
 api = tweepy.API(auth)
 
 politics = ('JLMelenchon', 'benoithamon', 'EmmanuelMacron')
