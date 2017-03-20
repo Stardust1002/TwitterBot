@@ -114,6 +114,9 @@ def scenarioConcours(limit=100):
     results2 = api.search(q="#jeu",
                                   result_type='mixed',
                                   count=limit)
+    results3 = api.search(q="#jeuconcours",
+                                  result_type='mixed',
+                                  count=limit)
     #since_id = getLastPostId(['concours'], api.user_timeline(), 'any')
     results = map(getRootTweet, results1+results2)
     results = filter(checkSeriousness, results)
