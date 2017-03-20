@@ -108,12 +108,16 @@ def flush(queries, flag='any'):
         pass
 
 def scenarioConcours(limit=100):
-    results = api.search(q="#Concours",
+    results1 = api.search(q="#concours",
+                                  result_type='mixed',
+                                  count=limit)
+    results2 = api.search(q="#jeu",
                                   result_type='mixed',
                                   count=limit)
     #since_id = getLastPostId(['concours'], api.user_timeline(), 'any')
-    results = map(getRootTweet, results)
+    results = map(getRootTweet, results1+results2)
     results = filter(checkSeriousness, results)
+    results = filter(lambda x: allTermsInTweet(["follow","rt"], x), results)
     to_retweet = map(deepFollow, results)
     results = []
     for result in to_retweet:
