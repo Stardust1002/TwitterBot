@@ -151,7 +151,7 @@ def scenarioConcours(limit=100):
     results = map(getRootTweet, results1+results2+results3)
     results = filter(checkSeriousness, results)
     results = filter(lambda x: allTermsInTweet(["follow","rt"], x), results)
-    results = filter(lambda x: DB.instance.sadd(x.author.screen_name, x.id), results)
+    #results = filter(lambda x: DB.instance.sadd(x.author.screen_name, x.id), results)
 
     to_retweet = map(deepFollow, results)
     results = []
@@ -187,11 +187,11 @@ def scenarioUser(liste, likeRatio=3, retweetRatio=8):
         choice = liste[randint(0, len(liste) - 1)]
         user = api.get_user(choice)
         status = user.status
-        if DB.instance.sadd(user.screen_name, status.id):
-            if randint(0,10) < retweetRatio and status.retweet_count > 50:
-                flagged = retweet(status)
-            if randint(0, 10) < likeRatio and status.favorite_count > 50:
-                flagged = flagged or favorite(status)
+        #if DB.instance.sadd(user.screen_name, status.id):
+        if randint(0,10) < retweetRatio and status.retweet_count > 50:
+            flagged = retweet(status)
+        if randint(0, 10) < likeRatio and status.favorite_count > 50:
+            flagged = flagged or favorite(status)
         liste = liste.remove(choice)
     if flagged:
         sleep(randint(60, 300))
@@ -218,8 +218,8 @@ def job():
         scenarioUser(photos, likeRatio=8, retweetRatio=5)
 
 if __name__ == "__main__":
-    with DB(redis.ConnectionPool(password=auth_redis, host='127.0.0.1', port=6379, db=0)):
-        logger.info("# Tweets from profile added to cache:", sum(addProfileToCache("TonyJean42")))
+    #with DB(redis.ConnectionPool(password=auth_redis, host='127.0.0.1', port=6379, db=0)):
+        #logger.info("# Tweets from profile added to cache:", sum(addProfileToCache("TonyJean42")))
         while True:
             logger.info("=========== New job starting on {} =========".format(datetime.now()))
             job()
