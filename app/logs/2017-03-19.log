@@ -1,0 +1,112 @@
+2017-03-19 14:58:46,504 Twitter_bot  INFO     =========== New job starting... =========
+2017-03-19 14:58:46,504 tweepy.binder INFO     PARAMS: {}
+2017-03-19 14:58:46,530 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-03-19 14:58:47,423 tweepy.binder INFO     PARAMS: {'since_id': b'843459515995619328', 'result_type': b'recent', 'q': b'#Concours', 'count': b'100'}
+2017-03-19 14:58:47,428 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-03-19 14:58:48,235 tweepy.binder INFO     PARAMS: {'user_id': b'1208669094'}
+2017-03-19 14:58:48,239 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-03-19 14:58:48,968 Twitter_bot  INFO     Now following BoxToPlay @ 1208669094
+2017-03-19 14:58:48,968 tweepy.binder INFO     PARAMS: {'id': b'836602301917847553'}
+2017-03-19 14:58:48,973 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-03-19 14:58:49,413 Twitter_bot  INFO     Retweeted #Concours
+
+🎁10 serve
+2017-03-19 14:58:49,413 tweepy.binder INFO     PARAMS: {'user_id': b'1208669094'}
+2017-03-19 14:58:49,417 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-03-19 14:58:49,787 Twitter_bot  INFO     Now following BoxToPlay @ 1208669094
+2017-03-19 14:58:49,788 tweepy.binder INFO     PARAMS: {'id': b'836910169980284928'}
+2017-03-19 14:58:49,793 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-03-19 14:58:50,302 Twitter_bot  INFO     Retweeted #Concours
+
+🎁15 serve
+2017-03-19 14:58:50,302 tweepy.binder INFO     PARAMS: {'user_id': b'3229511393'}
+2017-03-19 14:58:50,322 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-03-19 14:58:50,670 Twitter_bot  INFO     Now following KangouRo1 @ 3229511393
+2017-03-19 14:58:50,670 tweepy.binder INFO     PARAMS: {'id': b'lasourisduweb'}
+2017-03-19 14:58:50,674 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-03-19 14:58:50,872 tweepy.binder INFO     PARAMS: {'id': b'KangouRo1'}
+2017-03-19 14:58:50,878 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-03-19 14:58:51,081 tweepy.binder INFO     PARAMS: {'id': b'841358678515187712'}
+2017-03-19 14:58:51,085 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-03-19 14:58:51,324 Twitter_bot  INFO     Retweet Failed 🎁New #CONCOURS 🎁
+
+1  <class 'tweepy.error.TweepError'> [{'code': 327, 'message': 'You have already retweeted this tweet.'}]
+2017-03-19 14:58:51,325 tweepy.binder INFO     PARAMS: {'user_id': b'28081998'}
+2017-03-19 14:58:51,329 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-03-19 14:58:51,660 Twitter_bot  INFO     Now following ParlophoneFR @ 28081998
+2017-03-19 14:58:51,661 tweepy.binder INFO     PARAMS: {'id': b'ParlophoneFR'}
+2017-03-19 14:58:51,665 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-03-19 14:58:51,869 tweepy.binder INFO     PARAMS: {'id': b'842782470038786049'}
+2017-03-19 14:58:51,874 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-03-19 14:58:52,132 Twitter_bot  INFO     Retweet Failed #concours
+#RT + #Fol <class 'tweepy.error.TweepError'> [{'code': 327, 'message': 'You have already retweeted this tweet.'}]
+2017-03-19 14:58:52,133 tweepy.binder INFO     PARAMS: {'user_id': b'16933084'}
+2017-03-19 14:58:52,137 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-03-19 14:58:52,443 Twitter_bot  INFO     Now following rueducommerce @ 16933084
+2017-03-19 14:58:52,443 tweepy.binder INFO     PARAMS: {'id': b'841333278011449344'}
+2017-03-19 14:58:52,448 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-03-19 14:58:52,749 Twitter_bot  INFO     Retweet Failed #Concours Cette sema <class 'tweepy.error.TweepError'> [{'code': 327, 'message': 'You have already retweeted this tweet.'}]
+2017-03-19 14:58:52,749 tweepy.binder INFO     PARAMS: {'user_id': b'106355755'}
+2017-03-19 14:58:52,755 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-03-19 14:58:53,077 Twitter_bot  INFO     Now following TopAchat @ 106355755
+2017-03-19 14:58:53,078 tweepy.binder INFO     PARAMS: {'id': b'843161332883116032'}
+2017-03-19 14:58:53,082 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-03-19 14:58:53,326 Twitter_bot  INFO     Retweet Failed 🎁 #Concours 🎁 sur Fa <class 'tweepy.error.TweepError'> [{'code': 327, 'message': 'You have already retweeted this tweet.'}]
+2017-03-19 14:58:53,327 tweepy.binder INFO     PARAMS: {'user_id': b'63142684'}
+2017-03-19 14:58:53,332 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-03-19 14:58:53,680 Twitter_bot  INFO     Now following Cdiscount @ 63142684
+2017-03-19 14:58:53,680 tweepy.binder INFO     PARAMS: {'id': b'Cdiscount'}
+2017-03-19 14:58:53,698 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-03-19 14:58:53,911 tweepy.binder INFO     PARAMS: {'id': b'842805233927573505'}
+2017-03-19 14:58:53,916 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-03-19 14:58:54,153 Twitter_bot  INFO     Retweet Failed ⏰ #Concours
+ 
+🎁 Sams <class 'tweepy.error.TweepError'> [{'code': 327, 'message': 'You have already retweeted this tweet.'}]
+2017-03-19 14:58:54,158 tweepy.binder INFO     PARAMS: {'id': b'JLMelenchon'}
+2017-03-19 14:58:54,163 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-03-19 15:01:47,459 Twitter_bot  INFO     =========== New job starting... =========
+2017-03-19 15:01:47,460 tweepy.binder INFO     PARAMS: {}
+2017-03-19 15:01:47,478 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-03-19 15:01:48,280 tweepy.binder INFO     PARAMS: {'result_type': b'recent', 'count': b'100', 'since_id': b'843461764280979457', 'q': b'#Concours'}
+2017-03-19 15:01:48,285 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-03-19 15:01:49,196 tweepy.binder INFO     PARAMS: {'user_id': b'9330822'}
+2017-03-19 15:01:49,201 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-03-19 15:01:49,703 Twitter_bot  INFO     Now following musikplease @ 9330822
+2017-03-19 15:01:52,707 tweepy.binder INFO     PARAMS: {'id': b'843029747500273664'}
+2017-03-19 15:01:52,714 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-03-19 15:01:53,189 Twitter_bot  INFO     Retweeted Gagnez des places po
+2017-03-19 15:01:53,190 tweepy.binder INFO     PARAMS: {'user_id': b'1208669094'}
+2017-03-19 15:01:53,196 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-03-19 15:01:53,512 Twitter_bot  INFO     Now following BoxToPlay @ 1208669094
+2017-03-19 15:02:09,514 tweepy.binder INFO     PARAMS: {'id': b'843070773803802624'}
+2017-03-19 15:02:09,521 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-03-19 15:02:09,779 Twitter_bot  INFO     Retweet Failed #Concours
+
+🎁20 serve <class 'tweepy.error.TweepError'> [{'code': 327, 'message': 'You have already retweeted this tweet.'}]
+2017-03-19 15:02:09,779 tweepy.binder INFO     PARAMS: {'user_id': b'1208669094'}
+2017-03-19 15:02:09,785 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-03-19 15:02:10,219 Twitter_bot  INFO     Now following BoxToPlay @ 1208669094
+2017-03-19 15:02:28,220 tweepy.binder INFO     PARAMS: {'id': b'843462105596678144'}
+2017-03-19 15:02:28,227 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-03-19 15:02:28,746 Twitter_bot  INFO     Retweeted 🕒 Tirage au sort pou
+2017-03-19 15:02:28,747 tweepy.binder INFO     PARAMS: {'user_id': b'2695828976'}
+2017-03-19 15:02:28,751 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-03-19 15:02:29,131 Twitter_bot  INFO     Now following ConcoursWinner @ 2695828976
+2017-03-19 15:02:29,132 tweepy.binder INFO     PARAMS: {'id': b'ConcoursWinner'}
+2017-03-19 15:02:29,136 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-03-19 15:02:29,337 tweepy.binder INFO     PARAMS: {'id': b'YlinorMC'}
+2017-03-19 15:02:29,343 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-03-19 15:02:40,553 tweepy.binder INFO     PARAMS: {'id': b'842084635718909952'}
+2017-03-19 15:02:40,559 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-03-19 15:02:41,112 Twitter_bot  INFO     Retweeted #CONCOURS #STEAM 🎮
+
+
+2017-03-19 15:02:41,113 tweepy.binder INFO     PARAMS: {'user_id': b'3229511393'}
+2017-03-19 15:02:41,117 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-03-19 15:02:41,625 Twitter_bot  INFO     Now following KangouRo1 @ 3229511393
+2017-03-19 15:02:41,625 tweepy.binder INFO     PARAMS: {'id': b'lasourisduweb'}
+2017-03-19 15:02:41,629 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-03-19 15:02:41,832 tweepy.binder INFO     PARAMS: {'id': b'KangouRo1'}
+2017-03-19 15:02:41,836 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-03-19 15:04:20,224 Twitter_bot  INFO     =========== New job starting at 2017-03-19 15:04:20.224848 =========
+2017-03-19 15:04:20,225 Twitter_bot  INFO     =========== Job paused =============

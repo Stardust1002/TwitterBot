@@ -1,1 +1,1 @@
-worker: python main.py
+worker: sh ./redis/run.sh && python ./app/main.py

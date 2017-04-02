@@ -1,0 +1,803 @@
+2017-04-02 13:51:44,757 tweepy.binder INFO     PARAMS: {'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:51:44,763 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:51:46,386 tweepy.binder INFO     PARAMS: {'max_id': b'847791045727408128', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:51:46,393 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:51:48,153 tweepy.binder INFO     PARAMS: {'max_id': b'847117836850020352', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:51:48,160 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:51:49,560 tweepy.binder INFO     PARAMS: {'max_id': b'846451335067308033', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:51:49,565 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:51:50,988 tweepy.binder INFO     PARAMS: {'max_id': b'845702777204604928', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:51:50,994 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:51:52,263 tweepy.binder INFO     PARAMS: {'max_id': b'845013519686942722', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:51:52,271 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:51:54,076 tweepy.binder INFO     PARAMS: {'max_id': b'844332931703324673', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:51:54,082 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:51:55,436 tweepy.binder INFO     PARAMS: {'max_id': b'843883494719807488', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:51:55,444 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:51:57,068 tweepy.binder INFO     PARAMS: {'max_id': b'843488529959272448', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:51:57,075 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:51:58,541 tweepy.binder INFO     PARAMS: {'max_id': b'843183563273125888', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:51:58,553 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:51:59,651 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:51:59,658 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:52:00,404 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:52:00,409 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:52:01,162 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:52:01,169 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:52:02,131 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:52:02,138 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:52:02,909 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:52:02,925 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:52:03,706 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:52:03,711 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:52:04,472 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:52:04,475 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:52:05,412 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:52:05,416 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:52:06,434 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:52:06,439 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:52:07,494 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:52:07,515 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:52:08,507 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:52:08,515 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:52:09,741 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:52:09,745 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:52:10,910 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:52:10,917 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:52:12,019 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:52:12,026 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:52:13,122 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:52:13,154 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:52:13,931 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:52:13,935 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:52:14,704 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:52:14,710 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:52:15,517 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:52:15,523 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:52:16,302 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:52:16,306 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:52:17,068 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:52:17,102 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:52:17,928 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:52:17,932 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:52:18,688 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:52:18,695 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:52:19,475 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:52:19,481 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:52:20,266 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:52:20,270 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:52:21,017 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:52:21,021 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:52:21,793 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:52:21,797 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:52:22,563 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:52:22,568 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:52:23,323 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:52:23,328 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:52:24,085 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:52:24,092 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:52:24,891 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:52:24,897 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:52:25,678 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:52:25,683 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:52:26,442 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:52:26,450 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:52:27,239 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:52:27,249 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:52:28,005 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:52:28,010 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:52:28,775 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:52:28,780 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:52:29,557 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:52:29,561 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:52:30,354 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:52:30,362 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:52:31,131 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:52:31,137 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:52:31,926 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:52:31,932 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:52:32,695 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:52:32,699 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:52:33,466 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:52:33,471 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:52:34,247 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:52:34,251 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:52:34,990 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:52:34,998 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:52:35,754 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:52:35,761 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:52:36,508 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:52:36,512 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:52:37,313 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:52:37,320 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:52:38,274 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:52:38,278 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:52:39,037 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:52:39,042 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:52:39,788 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:52:39,793 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:52:40,548 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:52:40,563 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:52:41,333 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:52:41,337 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:52:42,176 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:52:42,181 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:52:43,036 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:52:43,043 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:52:43,798 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:52:43,805 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:52:44,557 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:52:44,576 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:52:45,357 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:52:45,782 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:52:46,553 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:52:46,560 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:52:47,331 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:52:47,338 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:52:48,107 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:52:48,114 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:52:48,894 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:52:48,916 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:52:49,689 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:52:49,696 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:52:50,464 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:52:50,468 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:52:51,243 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:52:51,249 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:52:52,034 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:52:52,051 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:52:52,884 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:52:52,981 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:52:53,813 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:52:53,819 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:52:54,600 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:52:54,684 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:52:55,595 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:52:55,601 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:52:56,387 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:52:56,392 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:52:57,136 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:52:57,154 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:52:57,914 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:52:57,920 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:52:58,667 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:52:58,675 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:52:59,426 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:52:59,430 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:53:00,262 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:53:00,267 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:53:01,035 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:53:01,050 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:53:01,810 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:53:01,817 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:53:02,589 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:53:02,595 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:53:03,358 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:53:03,365 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:53:04,150 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:53:04,157 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:53:04,937 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:53:05,006 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:53:05,760 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:53:05,766 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:53:06,561 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:53:06,568 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:53:07,329 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:53:07,337 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:53:08,112 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:53:08,117 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:53:08,907 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:53:08,913 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:53:09,702 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:53:09,706 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:53:10,579 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:53:10,584 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:53:11,340 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:53:11,343 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:53:12,091 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:53:12,106 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:53:12,874 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:53:12,884 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:54:13,870 tweepy.binder INFO     PARAMS: {'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:54:13,876 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:54:15,647 tweepy.binder INFO     PARAMS: {'max_id': b'847791045727408128', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:54:15,653 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:54:17,040 tweepy.binder INFO     PARAMS: {'max_id': b'847117836850020352', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:54:17,048 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:54:18,614 tweepy.binder INFO     PARAMS: {'max_id': b'846451335067308033', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:54:18,620 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:54:19,716 tweepy.binder INFO     PARAMS: {'max_id': b'845702777204604928', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:54:19,721 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:54:21,761 tweepy.binder INFO     PARAMS: {'max_id': b'845013519686942722', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:54:21,769 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:54:23,181 tweepy.binder INFO     PARAMS: {'max_id': b'844332931703324673', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:54:23,187 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:54:24,675 tweepy.binder INFO     PARAMS: {'max_id': b'843883494719807488', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:54:24,679 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:54:26,256 tweepy.binder INFO     PARAMS: {'max_id': b'843488529959272448', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:54:26,262 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:54:27,494 tweepy.binder INFO     PARAMS: {'max_id': b'843183563273125888', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:54:27,498 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:54:28,695 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:54:28,699 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:54:29,458 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:54:29,462 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:54:30,243 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:54:30,249 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:54:31,004 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:54:31,010 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:54:31,790 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:54:31,797 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:54:32,555 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:54:32,562 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:54:33,331 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:54:33,337 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:54:34,105 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:54:34,110 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:54:35,110 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:54:35,124 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:54:35,875 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:54:35,882 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:54:36,644 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:54:36,648 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:54:37,418 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:54:37,425 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:54:38,212 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:54:38,218 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:54:39,052 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:54:39,072 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:54:39,833 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:54:39,839 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:54:40,613 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:54:40,617 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:54:41,392 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:54:41,396 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:54:42,151 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:54:42,156 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:54:42,984 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:54:43,000 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:54:43,768 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:54:43,775 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:54:44,530 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:54:44,537 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:54:45,306 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:54:45,310 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:54:46,058 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:54:46,063 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:54:46,820 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:54:46,841 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:54:47,609 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:54:47,615 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:54:48,400 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:54:48,405 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:54:49,156 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:54:49,160 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:54:49,947 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:54:49,951 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:54:50,706 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:54:50,722 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:54:51,480 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:54:51,486 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:54:52,229 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:54:52,235 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:54:52,991 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:54:52,996 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:54:53,748 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:54:53,755 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:54:54,516 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:54:54,586 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:54:55,349 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:54:55,358 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:54:56,134 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:54:56,139 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:54:57,010 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:54:57,015 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:54:57,766 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:54:57,773 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:54:58,549 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:54:58,553 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:54:59,344 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:54:59,348 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:55:00,179 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:55:00,187 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:55:01,005 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:55:01,010 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:55:01,808 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:55:01,813 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:55:02,607 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:55:02,613 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:55:03,413 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:55:03,417 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:55:04,180 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:55:04,183 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:55:04,968 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:55:04,976 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:55:05,733 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:55:05,739 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:55:06,497 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:55:06,504 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:55:07,269 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:55:07,288 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:55:08,062 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:55:08,073 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:55:08,875 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:55:08,882 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:55:09,693 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:55:09,697 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:55:10,450 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:55:10,456 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:55:11,264 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:55:11,271 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:55:12,030 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:55:12,034 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:55:12,815 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:55:12,819 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:55:13,584 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:55:13,588 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:55:14,523 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:55:14,978 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:55:15,756 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:55:15,761 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:55:16,614 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:55:16,621 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:55:17,391 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:55:17,396 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:55:18,191 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:55:18,195 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:55:18,961 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:55:18,970 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:55:19,742 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:55:19,748 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:55:20,506 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:55:20,511 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:55:21,292 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:55:21,299 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:55:22,047 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:55:22,054 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:55:22,799 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:55:22,806 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:55:23,586 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:55:23,592 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:55:24,363 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:55:24,367 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:55:25,188 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:55:25,195 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:55:25,974 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:55:25,980 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:55:26,770 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:55:26,777 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:55:27,543 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:55:27,562 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:55:28,467 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:55:28,471 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:55:29,238 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:55:29,243 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:55:30,015 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:55:30,021 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:55:30,846 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:55:30,860 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:55:31,644 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:55:31,651 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:55:32,430 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:55:32,437 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:55:33,384 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:55:33,391 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:55:34,170 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:55:34,177 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:55:34,994 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:55:35,010 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:55:35,769 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:55:35,776 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:55:36,546 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:55:36,553 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:55:37,344 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:55:37,350 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:55:38,131 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:55:38,135 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:55:38,885 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:55:38,901 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:55:39,680 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 13:55:39,683 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 13:55:40,777 Twitter_bot  INFO     Redis Pipeline executed
+2017-04-02 14:01:49,325 tweepy.binder INFO     PARAMS: {'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:01:49,353 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:01:51,130 tweepy.binder INFO     PARAMS: {'max_id': b'847791045727408128', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:01:51,135 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:01:52,350 tweepy.binder INFO     PARAMS: {'max_id': b'847117836850020352', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:01:52,358 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:01:54,141 tweepy.binder INFO     PARAMS: {'max_id': b'846451335067308033', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:01:54,147 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:01:55,819 tweepy.binder INFO     PARAMS: {'max_id': b'845702777204604928', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:01:55,826 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:01:57,049 tweepy.binder INFO     PARAMS: {'max_id': b'845013519686942722', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:01:57,055 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:01:58,369 tweepy.binder INFO     PARAMS: {'max_id': b'844332931703324673', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:01:58,376 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:01:59,672 tweepy.binder INFO     PARAMS: {'max_id': b'843883494719807488', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:01:59,679 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:02:01,458 tweepy.binder INFO     PARAMS: {'max_id': b'843488529959272448', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:02:01,465 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:02:03,198 tweepy.binder INFO     PARAMS: {'max_id': b'843183563273125888', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:02:03,205 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:02:04,477 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:02:04,484 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:02:05,253 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:02:05,260 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:02:06,022 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:02:06,029 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:02:06,800 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:02:06,814 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:02:07,583 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:02:07,589 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:02:08,357 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:02:08,361 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:02:09,107 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:02:09,114 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:02:09,883 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:02:09,889 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:02:10,713 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:02:10,721 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:02:11,503 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:02:11,508 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:02:12,289 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:02:12,294 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:02:13,054 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:02:13,060 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:02:13,830 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:02:13,836 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:02:14,795 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:02:14,801 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:02:15,576 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:02:15,583 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:02:16,388 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:02:16,395 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:02:17,171 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:02:17,178 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:02:17,966 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:02:17,972 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:02:18,743 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:02:18,749 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:02:19,545 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:02:19,552 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:02:20,328 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:02:20,334 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:02:21,111 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:02:21,118 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:02:21,895 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:02:21,901 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:02:22,718 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:02:22,725 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:02:23,546 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:02:23,554 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:02:24,470 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:02:24,477 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:02:25,256 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:02:25,263 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:02:26,060 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:02:26,067 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:02:26,828 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:02:26,835 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:02:27,626 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:02:27,633 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:02:28,385 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:02:28,392 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:02:29,142 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:02:29,146 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:02:29,902 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:02:29,908 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:02:30,663 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:02:30,668 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:02:31,467 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:02:31,476 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:02:32,240 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:02:32,244 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:02:32,996 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:02:33,002 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:02:33,762 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:02:33,767 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:02:34,538 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:02:34,543 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:02:35,468 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:02:35,472 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:02:36,241 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:02:36,245 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:02:37,018 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:02:37,026 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:02:37,792 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:02:37,802 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:02:38,561 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:02:38,565 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:02:39,338 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:02:39,344 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:02:40,108 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:02:40,115 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:02:40,880 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:02:40,884 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:02:41,655 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:02:41,677 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:02:42,430 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:02:42,436 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:02:43,202 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:02:43,212 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:02:43,967 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:02:43,974 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:02:44,735 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:02:44,740 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:02:45,509 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:02:45,523 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:02:46,296 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:02:46,304 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:02:47,085 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:02:47,092 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:02:47,846 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:02:47,850 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:02:48,627 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:02:48,633 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:02:49,433 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:02:49,452 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:02:50,202 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:02:50,625 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:02:51,383 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:02:51,387 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:02:52,219 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:02:52,229 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:02:52,988 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:02:52,996 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:02:53,774 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:02:53,787 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:02:54,532 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:02:54,536 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:02:55,317 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:02:55,323 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:02:56,105 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:02:56,109 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:02:56,887 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:02:56,891 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:02:57,689 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:02:57,704 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:02:58,452 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:02:58,456 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:02:59,208 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:02:59,213 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:03:00,013 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:03:00,017 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:03:00,792 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:03:00,796 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:03:01,551 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:03:01,575 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:03:02,350 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:03:02,354 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:03:03,125 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:03:03,133 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:03:03,900 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:03:03,904 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:03:04,677 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:03:04,683 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:03:05,461 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:03:05,474 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:03:06,258 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:03:06,264 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:03:07,016 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:03:07,021 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:03:07,797 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:03:07,801 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:03:08,576 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:03:08,582 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:03:09,364 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:03:09,382 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:03:10,145 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:03:10,150 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:03:10,926 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:03:10,930 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:03:11,698 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:03:11,704 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:03:12,465 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:03:12,469 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:03:13,225 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:03:13,240 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:03:14,013 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:03:14,021 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:03:14,769 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:03:14,774 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:03:15,869 Twitter_bot  INFO     Redis Pipeline executed
+2017-04-02 14:04:03,281 tweepy.binder INFO     PARAMS: {'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:04:03,705 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:04:04,962 tweepy.binder INFO     PARAMS: {'max_id': b'847791045727408128', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:04:04,967 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:04:06,381 tweepy.binder INFO     PARAMS: {'max_id': b'847117836850020352', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:04:06,386 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:04:07,691 tweepy.binder INFO     PARAMS: {'max_id': b'846451335067308033', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:04:07,697 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:04:09,145 tweepy.binder INFO     PARAMS: {'max_id': b'845702777204604928', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:04:09,149 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:04:10,505 tweepy.binder INFO     PARAMS: {'max_id': b'845013519686942722', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:04:10,509 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:04:11,776 tweepy.binder INFO     PARAMS: {'max_id': b'844332931703324673', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:04:11,780 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:04:13,134 tweepy.binder INFO     PARAMS: {'max_id': b'843883494719807488', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:04:13,138 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:04:14,620 tweepy.binder INFO     PARAMS: {'max_id': b'843488529959272448', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:04:14,625 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:04:16,189 tweepy.binder INFO     PARAMS: {'max_id': b'843183563273125888', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:04:16,197 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:04:17,657 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:04:17,661 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:04:18,438 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:04:18,445 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:04:19,217 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:04:19,228 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:04:19,992 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:04:19,998 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:04:20,805 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:04:20,809 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:04:21,587 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:04:21,594 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:04:22,426 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:04:22,448 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:04:23,200 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:04:23,205 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:04:24,049 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:04:24,056 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:04:24,876 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:04:24,884 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:04:25,659 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:04:25,663 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:04:26,478 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:04:26,482 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:04:27,249 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:04:27,257 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:04:28,079 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:04:28,082 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:04:28,879 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:04:28,883 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:04:29,638 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:04:29,643 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:04:30,423 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:04:30,429 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:04:31,206 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:04:31,210 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:04:31,998 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:04:32,002 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:04:32,758 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:04:32,762 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:04:33,536 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:04:33,540 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:04:34,297 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:04:34,302 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:04:35,084 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:04:35,088 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:04:35,845 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:04:35,850 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:04:36,645 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:04:36,649 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:04:37,406 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:04:37,410 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:04:38,193 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:04:38,198 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:04:38,957 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:04:38,966 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:04:39,737 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:04:39,744 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:04:40,599 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:04:40,603 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:04:41,367 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:04:41,372 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:04:42,153 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:04:42,160 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:04:42,925 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:04:42,933 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:04:43,687 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:04:43,693 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:04:44,484 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:04:44,491 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:04:45,265 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:04:45,271 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:04:46,027 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:04:46,033 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:04:46,806 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:04:46,813 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:04:47,986 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:04:47,993 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:04:48,912 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:04:48,916 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:04:49,670 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:04:49,677 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:04:50,431 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:04:50,439 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:04:51,196 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:04:51,202 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:04:51,952 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:04:51,956 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:04:52,726 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:04:52,733 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:04:53,496 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:04:53,502 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:04:54,288 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:04:54,295 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:04:55,075 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:04:55,082 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:04:55,851 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:04:55,858 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:04:56,636 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:04:56,642 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:04:57,445 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:04:57,452 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:04:58,215 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:04:58,222 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:04:58,988 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:04:58,995 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:04:59,749 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:04:59,756 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:05:00,521 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:05:00,528 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:05:01,319 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:05:01,325 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:05:02,086 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:05:02,093 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:05:02,856 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:05:02,864 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:05:03,647 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:05:03,653 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:05:04,422 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:05:04,772 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:05:05,941 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:05:05,948 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:05:06,723 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:05:06,730 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:05:07,543 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:05:07,550 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:05:08,319 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:05:08,325 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:05:09,161 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:05:09,168 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:05:09,960 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:05:09,964 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:05:10,741 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:05:10,745 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:05:11,508 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:05:11,514 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:05:12,668 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:05:12,675 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:05:13,604 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:05:13,608 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:05:14,359 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:05:14,366 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:05:15,135 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:05:15,141 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:05:15,897 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:05:15,906 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:05:16,674 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:05:16,681 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:05:17,469 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:05:17,475 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:05:18,245 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:05:18,252 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:05:19,085 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:05:19,092 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:05:19,896 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:05:19,903 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:05:20,657 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:05:20,663 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:05:21,469 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:05:21,476 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:05:22,261 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:05:22,268 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:05:23,013 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:05:23,021 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:05:23,777 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:05:23,781 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:05:24,553 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:05:24,560 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:05:25,330 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:05:25,335 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:05:26,180 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:05:26,186 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:05:26,936 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:05:26,943 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:05:27,689 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:05:27,695 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:05:28,470 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:05:28,477 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:05:29,305 tweepy.binder INFO     PARAMS: {'max_id': b'843131252123361280', 'id': b'TonyJean42', 'count': b'100'}
+2017-04-02 14:05:29,312 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.twitter.com
+2017-04-02 14:05:30,166 Twitter_bot  INFO     Redis Pipeline executed

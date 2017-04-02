@@ -1,6 +1,7 @@
 import logging
 import re
 import tweepy
+import redis
 
 from datetime import datetime
 from random import randint
@@ -11,6 +12,7 @@ from os import environ
 
 auth_keys = (environ['auth1'], environ['auth2'])
 auth_tokens = (environ['token1'], environ['token2'])
+auth_redis = environ['redis']
 
 auth = tweepy.OAuthHandler(*auth_keys)
 auth.set_access_token(*auth_tokens)
@@ -18,7 +20,7 @@ api = tweepy.API(auth)
 
 logging.basicConfig(level=logging.INFO,
                     format='%(asctime)s %(name)-12s %(levelname)-8s %(message)s',
-                    filename='logs/{}.log'.format(strftime("%Y-%m-%d", gmtime())),
+                    filename='app/logs/{}.log'.format(strftime("%Y-%m-%d", gmtime())),
                     filemode='a')
 logger = logging.getLogger('Twitter_bot')
 logger.addHandler(logging.StreamHandler())
@@ -31,6 +33,34 @@ companies = ('IpponUSA', 'Google', 'utc_compiegne', 'NASA', 'starwars', 'CERN', 
 people = ('boutangyann', 'Snowden', 'BernieSanders', 'realDonaldTrump', 'tim_cook', 'elonmusk', 'Thom_astro', 'HamillHimself')
 news = ('CourrierPicard', 'lemondefr', 'konbini', 'LeHuffPost', 'mediapart', 'wikileaks', 'newscientist')
 photos = ('HUBBLE_space', 'Fascinatingpics', 'BEAUTIFULPlCS')
+
+class DB:
+    pool = None
+    instance = None
+    pipeline = None
+
+    def __init__(self, connectionPool):
+        DB.pool = connectionPool
+        DB.instance = redis.Redis(connection_pool=DB.pool)
+        DB.pipeline = DB.instance.pipeline()
+
+    @staticmethod
+    def connect(connectionPool=None):
+        if connectionPool is None:
+            DB.instance = redis.Redis(connection_pool=DB.pool)
+        else:
+            DB.instance = redis.Redis(connection_pool=connectionPool)
+
+    def __enter__(self):
+        return self
+
+    def __exit__(self, exc_type, exc_val, exc_tb):
+        try:
+            DB.pipeline.execute()
+            logger.info("Redis Pipeline executed")
+        except Exception as ex:
+            logger.error("Redis Pipeline execution failed")
+            logger.error(str(ex))
 
 def getRootTweet(tweet):
     return getRootTweet(tweet.retweeted_status) if hasattr(tweet, 'retweeted_status') else tweet
@@ -70,7 +100,7 @@ def follow(tweet):
 
 def deepFollow(tweet):
     follow(tweet)
-    for x in re.findall('@(\w+)', tweet.text):
+    for x in re.findall('@(\S+)', tweet.text):
         try:
             followUser(api.get_user(x))
         except:
@@ -121,12 +151,34 @@ def scenarioConcours(limit=100):
     results = map(getRootTweet, results1+results2+results3)
     results = filter(checkSeriousness, results)
     results = filter(lambda x: allTermsInTweet(["follow","rt"], x), results)
+    results = filter(lambda x: DB.instance.sadd(x.author.screen_name, x.id), results)
+
     to_retweet = map(deepFollow, results)
     results = []
     for result in to_retweet:
         results.append(retweet(result))
         sleep(randint(1, 20))
     return results
+
+def getAllTweetsFrom(user: str) -> list:
+    res = []
+    for _ in range(100):
+        print(_, ".",end="")
+        try:
+            if _ == 0:
+                r = api.user_timeline(user, count=100)
+            else:
+                r = api.user_timeline(user, count=100, max_id=res[-1].id)
+            res += r
+            sleep(0.5)
+        except:
+            break
+    return res
+
+def addProfileToCache(user: str) -> list:
+    tweets = [getRootTweet(tweet) for tweet in getAllTweetsFrom(user)]
+    for tweet in tweets: DB.pipeline.sadd(tweet.author.screen_name, tweet.id)
+    return DB.pipeline.execute()
 
 def scenarioUser(liste, likeRatio=3, retweetRatio=8):
     flagged = False
@@ -135,34 +187,36 @@ def scenarioUser(liste, likeRatio=3, retweetRatio=8):
         choice = liste[randint(0, len(liste) - 1)]
         user = api.get_user(choice)
         status = user.status
-        if randint(0,10) < retweetRatio and status.retweet_count > 50:
-            flagged = retweet(status)
-        if randint(0, 10) < likeRatio and status.favorite_count > 50:
-            flagged = flagged or favorite(status)
+        if DB.instance.sadd(user.screen_name, status.id):
+            if randint(0,10) < retweetRatio and status.retweet_count > 50:
+                flagged = retweet(status)
+            if randint(0, 10) < likeRatio and status.favorite_count > 50:
+                flagged = flagged or favorite(status)
         liste = liste.remove(choice)
     if flagged:
         sleep(randint(60, 300))
 
 def job():
     if datetime.now().hour >= randint(7, 9):
-        logger.info('- Concours:')
-        scenarioConcours(30)
-        logger.info('- Politics:')
-        scenarioUser(politics, likeRatio=3, retweetRatio=7)
-        logger.info('- Teams:')
-        scenarioUser(teams, likeRatio=8, retweetRatio=3)
-        logger.info('- Games:')
-        scenarioUser(games, likeRatio=5, retweetRatio=7)
-        logger.info('- Geek:')
-        scenarioUser(geek, likeRatio=2, retweetRatio=8)
-        logger.info('- Companies:')
-        scenarioUser(companies, likeRatio=6, retweetRatio=5)
-        logger.info('- People:')
-        scenarioUser(people, likeRatio=8, retweetRatio=7)
-        logger.info('- News:')
-        scenarioUser(news, likeRatio=1, retweetRatio=6)
-        logger.info('- Photos:')
-        scenarioUser(photos, likeRatio=8, retweetRatio=5)
+        with DB(redis.ConnectionPool(password=auth_redis, host='127.0.0.1', port=6379, db=0)):
+            logger.info('- Concours:')
+            scenarioConcours(30)
+            logger.info('- Politics:')
+            scenarioUser(politics, likeRatio=3, retweetRatio=7)
+            logger.info('- Teams:')
+            scenarioUser(teams, likeRatio=8, retweetRatio=3)
+            logger.info('- Games:')
+            scenarioUser(games, likeRatio=5, retweetRatio=7)
+            logger.info('- Geek:')
+            scenarioUser(geek, likeRatio=2, retweetRatio=8)
+            logger.info('- Companies:')
+            scenarioUser(companies, likeRatio=6, retweetRatio=5)
+            logger.info('- People:')
+            scenarioUser(people, likeRatio=8, retweetRatio=7)
+            logger.info('- News:')
+            scenarioUser(news, likeRatio=1, retweetRatio=6)
+            logger.info('- Photos:')
+            scenarioUser(photos, likeRatio=8, retweetRatio=5)
 
 if __name__ == "__main__":
     #flush(['concours','#Concours'])
