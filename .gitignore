@@ -1,2 +1,2 @@
 auth.py
-logs/*
+*.log

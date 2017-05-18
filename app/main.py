@@ -196,8 +196,26 @@ def scenarioUser(liste, likeRatio=3, retweetRatio=8):
     if flagged:
         sleep(randint(60, 300))
 
+def timeFlush(days):
+    """ Flush all tweets that have been posted more than {days} days from now.
+        (Not efficient)
+    """
+
+    now = datetime.now()
+    counter = 0
+    for tweet in getAllTweetsFrom(api.me().screen_name):
+        if (now - tweet.created_at).days >= days:
+            try:
+                api.destroy_status(tweet.id)
+                counter += 1
+            except tweepy.TweepError as exc:
+                logger.error("{}: {}".format(type(exc), str(exc)))
+                pass
+    logger.info('- {} Tweets deleted'.format(counter))
+
 def job():
     if datetime.now().hour >= randint(7, 9):
+        flushed = False
         logger.info('- Concours:')
         scenarioConcours(30)
         logger.info('- Politics:')
@@ -217,9 +235,12 @@ def job():
         logger.info('- Photos:')
         scenarioUser(photos, likeRatio=8, retweetRatio=5)
 
+    elif datetime.now().hour == 3 and not flushed: # delete all the old tweets during the night
+        timeFlush(20) # delete all tweets older than 30days
+        flushed=True
+
 if __name__ == "__main__":
     #with DB(redis.ConnectionPool(password=auth_redis, host='127.0.0.1', port=6379, db=0)):
-        #logger.info("# Tweets from profile added to cache:", sum(addProfileToCache("TonyJean42")))
         while True:
             logger.info("=========== New job starting on {} =========".format(datetime.now()))
             job()
