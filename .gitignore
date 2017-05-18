@@ -1,2 +1,5 @@
 auth.py
 *.log
+.idea/
+logs/
+app/logs/

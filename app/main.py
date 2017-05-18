@@ -214,8 +214,8 @@ def timeFlush(days):
     logger.info('- {} Tweets deleted'.format(counter))
 
 def job():
+    flushed = True
     if datetime.now().hour >= randint(7, 9):
-        flushed = False
         logger.info('- Concours:')
         scenarioConcours(30)
         logger.info('- Politics:')
@@ -234,10 +234,11 @@ def job():
         scenarioUser(news, likeRatio=1, retweetRatio=6)
         logger.info('- Photos:')
         scenarioUser(photos, likeRatio=8, retweetRatio=5)
+        flushed = False
 
     elif datetime.now().hour == 3 and not flushed: # delete all the old tweets during the night
         timeFlush(20) # delete all tweets older than 30days
-        flushed=True
+        flushed = True
 
 if __name__ == "__main__":
     #with DB(redis.ConnectionPool(password=auth_redis, host='127.0.0.1', port=6379, db=0)):
