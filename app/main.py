@@ -196,15 +196,16 @@ def scenarioUser(liste, likeRatio=3, retweetRatio=8):
     if flagged:
         sleep(randint(60, 300))
 
-def timeFlush(days):
+def timeFlush(days, queries=None):
     """ Flush all tweets that have been posted more than {days} days from now.
+        If queries is specified, remove tweets that DON'T HAVE those words
         (Not efficient)
     """
-
+    condition = lambda tweet: not anyTermsInTweet(queries, tweet) if queries is not None else True
     now = datetime.now()
     counter = 0
     for tweet in getAllTweetsFrom(api.me().screen_name):
-        if (now - tweet.created_at).days >= days:
+        if (now - tweet.created_at).days >= days and condition(tweet):
             try:
                 api.destroy_status(tweet.id)
                 counter += 1
@@ -237,7 +238,9 @@ def job():
         flushed = False
 
     elif datetime.now().hour == 3 and not flushed: # delete all the old tweets during the night
-        timeFlush(20) # delete all tweets older than 30days
+        timeFlush(30) # delete all tweets older than 20days
+        sleep(randint(60, 600))
+        timeFlush(15, ["jeu", "jeuconcours", "concours"]) # delete all tweets older than 15days not having "jeu", "jeuconcours" and "concours"
         flushed = True
 
 if __name__ == "__main__":
