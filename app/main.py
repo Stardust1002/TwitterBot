@@ -68,6 +68,9 @@ def getRootTweet(tweet):
 def checkSeriousness(tweet, limit=20000):
     return tweet.author.followers_count >= limit
 
+def checkFreshness(tweet, days=13):
+    return (datetime.now() - tweet.created_at).days < days
+
 def retweet(tweet):
     try:
         tweet.retweet()
@@ -150,6 +153,7 @@ def scenarioConcours(limit=100):
     #since_id = getLastPostId(['concours'], api.user_timeline(), 'any')
     results = map(getRootTweet, results1+results2+results3)
     results = filter(checkSeriousness, results)
+    results = filter(checkFreshness, results)
     results = filter(lambda x: allTermsInTweet(["follow","rt"], x), results)
     #results = filter(lambda x: DB.instance.sadd(x.author.screen_name, x.id), results)
 
@@ -188,9 +192,11 @@ def scenarioUser(liste, likeRatio=3, retweetRatio=8):
         user = api.get_user(choice)
         status = user.status
         #if DB.instance.sadd(user.screen_name, status.id):
-        if randint(0,10) < retweetRatio and status.retweet_count > 50:
+        if randint(0,10) < retweetRatio and status.retweet_count > 50 and \
+            checkFreshness(status):
             flagged = retweet(status)
-        if randint(0, 10) < likeRatio and status.favorite_count > 50:
+        if randint(0, 10) < likeRatio and status.favorite_count > 50 and \
+            checkFreshness(status):
             flagged = flagged or favorite(status)
         liste = liste.remove(choice)
     if flagged:
